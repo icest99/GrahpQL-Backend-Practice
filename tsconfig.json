@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "ES6", //specify taret JS version that compiler will output, because node support a lot of features from es6
+        "module": "commonjs", //module allow refer to module manager to be use in output, since node, commonjs is stanard to node, so we will use commonjs
+        "rootDir": "./src", //tell compiler that all of our ts files will be inside this.
+        "outDir": "./build",
+        "esModuleInterop": true, //help compile js modules in style of esModule
+        "strict": true //allow more strict options to be add
+    }
+}
