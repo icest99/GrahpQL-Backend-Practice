@@ -27,5 +27,7 @@
     "build": "tsc --project ./",
     "lint": "eslint . --ext .ts",
     "seed": "ts-node temp/seed.ts"
-  }
+  },
+
+  "proxy": "http://localhost:9000"
 }
